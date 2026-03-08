@@ -6,3 +6,6 @@
 > With empty array runs only once when page load
 > Cleanup function 
 > Help to call API's
+
+## useRef
+> "current" holds the real element/value inside the ref.
