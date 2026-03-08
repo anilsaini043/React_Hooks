@@ -1,4 +1,5 @@
-import UseState from "./hooks/UseState"
+import UseEffect from "./hooks/UseEffect"
+// import UseState from "./hooks/UseState"
 
 function App() {
 
@@ -6,7 +7,8 @@ function App() {
     <>
       <h1>All About React Hooks</h1>
       <hr/>
-      <UseState />
+      {/* <UseState /> */}
+      <UseEffect />
     </>
   )
 }
