@@ -1,9 +1,17 @@
 // import UseEffect from "./hooks/UseEffect"
 // import UseState from "./hooks/UseState"
-import UseMemo from "./hooks/UseMemo"
+// import UseMemo from "./hooks/UseMemo"
 // import UseRef from "./hooks/UseRef"
+import User from "./hooks/contextHook/User"
+import { MyContext } from "./hooks/contextHook/CreateContext"
 
 function App() {
+
+  const userData = {
+    name: "Anil Saini",
+    age: 30,
+    profession: "Software Engineer"
+  }
 
   return (
     <>
@@ -12,7 +20,11 @@ function App() {
       {/* <UseState /> */}
       {/* <UseEffect /> */}
       {/* <UseRef /> */}
-      <UseMemo />
+      {/* <UseMemo /> */}
+      <MyContext.Provider value={userData}>
+        <User />
+      </MyContext.Provider>
+      
     </>
   )
 }
