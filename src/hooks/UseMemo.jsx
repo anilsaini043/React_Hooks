@@ -1,4 +1,5 @@
 import { useState, useMemo } from "react"
+import Child from "./Child";
 
 const UseMemo = () => {
   const [ add, setAdd ] = useState(0);
@@ -31,6 +32,9 @@ const UseMemo = () => {
         
         <h3>Decrease count : {decrease}</h3>
         <button onClick={()=>setDecrease(decrease-1)}>Minus count</button>
+
+        <p>Difference between useMemo and React.memo</p>
+        <Child heavyCalculation={cachedValueWithDependency} />
     </>
   )
 }
