@@ -18,6 +18,9 @@
 
 > Don't use over which make debug issue
 > Difference between useMemo and React.memo
+> React.memo prevents re-render unless props change.
+
+## useContext
 
 ## useCallback
 > 
