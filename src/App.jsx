@@ -3,7 +3,9 @@
 // import UseMemo from "./hooks/UseMemo"
 // import UseRef from "./hooks/UseRef"
 
-import UseReducer from "./hooks/UseReducer"
+import Counter from "./hooks/customHook/Counter"
+
+// import UseReducer from "./hooks/UseReducer"
 
 // import UseCallback from "./hooks/UseCallback"
 
@@ -31,7 +33,8 @@ function App() {
       </MyContext.Provider> */}
 
       {/* <UseCallback /> */}
-      <UseReducer />
+      {/* <UseReducer /> */}
+      <Counter />
       
     </>
   )
