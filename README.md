@@ -21,6 +21,5 @@
 > React.memo prevents re-render unless props change.
 
 ## useContext
-
 ## useCallback
-> 
+## useReducer
